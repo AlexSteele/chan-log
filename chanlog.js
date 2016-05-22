@@ -12,10 +12,12 @@
 
         channel.prefixBy = function(prefix) {
             _prefix = prefix;
+            return channel;
         };
 
         channel.silence = function() {
-            _silence = true; 
+            _silence = true;
+            return channel;
         };
 
         channel.log = function(message) {
