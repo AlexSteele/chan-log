@@ -1,0 +1,14 @@
+{
+  "name": "chanlog",
+  "version": "0.1.0",
+  "description": "Simple channeled logging",
+  "repository": "https://github.com/AlexSteele/chanlog.git"
+  "main": "chanlog.js",
+  "keywords": [
+    "log",
+    "logging",
+    "logger"
+  ],
+  "author": "Alex Steele <steeleal123@gmail.com>",
+  "license": "MIT"
+}
