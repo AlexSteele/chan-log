@@ -1,9 +1,11 @@
 # chanlog
 Simple channeled logging for javascript
 
-API Demo
+##API Demo
+
 
 Creation: 
+
 
 ```javascript
 const log = chanlog.create('channelForFileA', 'channelForFileB');
@@ -16,6 +18,7 @@ const log = chanlog.create('a', 'b', 'c').silenceAll();
 
 Working with individual channels:
 
+
 ```javascript
 const log = chanlog.create('chanA');
 const chanA = log.chan('chanA');
@@ -25,5 +28,7 @@ chanA.log('goodbye!'); // Prints: 'some prefix: goodbye!'
 chanA.silence(); 
 chanA.log('This won\'t be printed!'); 
 ```
+
+
 
 See example.js for annotated examples.
